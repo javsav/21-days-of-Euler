@@ -13,15 +13,15 @@ A self-derived, self-inflicted coding challenge/journey in which participants wi
 
 | Day | Date | Problem | Language |
 | --- | ---- | ------- | -------- |
-| 3   | 11-2-2015 | 1 | Ruby |
-| 5   | 13-2-2015 | 2 | Ruby |
-| 7 | 15-2-2015 | 1 | C(/C++) |
-| 9 | 17-2-2015 | 2 | C(/C++) |
-| 11 | 19-2-2015 | 6 | C(/C++) |
-| 13 | 21-2-2015 | 1 | Bash/awk or similar) |
-| 15 | 23-2-2015 | 18 | C(/C++) |
-| 17 | 25-2-2015 | 67 | C(/C++) |
-| 19 | 23-2-2015 | 18 | Ruby |
-| 21 | 25-2-2015 | 67 | Ruby |
+| 3   | 14-2-2015 | 2 | Ruby |
+| 5   | 16-2-2015 | 9 | Ruby |
+| 7 | 18-2-2015 | 1 | C(/C++) |
+| 9 | 20-2-2015 | 9 | C(/C++) |
+| 11 | 22-2-2015 | 1 | Javascript |
+| 13 | 24-2-2015 | 25 | Python |
+| 15 | 26-2-2015 | 14 | Ruby |
+| 17 | 28-2-2015 | 11 | Ruby |
+| 19 | 02-3-2015 | 18 | Ruby |
+| 21 | 04-3-2015 | 67 | Ruby |
 
-yikes...
+cheese and crackers...
