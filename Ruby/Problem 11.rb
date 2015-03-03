@@ -2,6 +2,7 @@ matrix = [[8, 2, 22, 97, 38, 15, 0, 40, 0, 75, 4, 5, 7, 78, 52, 12, 50, 77, 91, 
 
 max = 0
 
+#Diagonal (\)
 for a in 0..16
 	for b in 0..16
 		mul = matrix[a][b] * matrix[a+1][b+1] * matrix[a+2][b+2] * matrix[a+3][b+3]
@@ -13,6 +14,7 @@ end
 
 a = 3
 
+#Diagonal (/)
 while a < 20 do
 	for b in 0..16
 		mul = matrix[a][b] * matrix[a-1][b+1] * matrix[a-2][b+2] * matrix[a-3][b+3]
@@ -22,5 +24,22 @@ while a < 20 do
 	end
 	a += 1
 end
+
+
+
+for a in 0..19
+	for b in 0..16
+		mul = matrix[a][b] * matrix[a][b+1] * matrix[a][b+2] * matrix[a][b+3] # Horizontal (-)
+		if mul > max
+			max = mul	
+			end
+		mul = matrix[b][a] * matrix[b+1][a] * matrix[b+2][a] * matrix[b+3][a] # Vertical (|)
+		if mul > max
+			max = mul
+		
+		end
+	end
+end
+
 
 puts max
