@@ -15,7 +15,7 @@ end
 
 
 #Diagonal (/)
-for a in 3...20 do
+for a in 3...20
 	for b in 0..16
 		mul = matrix[a][b] * matrix[a-1][b+1] * matrix[a-2][b+2] * matrix[a-3][b+3]
 		if mul > max
