@@ -40,11 +40,10 @@ shared_value  = tri[a-1][b]# First example - tri[13][0] - 63
 		
 			new_array.push(next_value + shared_value) # Largest of each triplet in the two rows is appended to temporary new array. First example - 62+63 = 125
 		end
-		end
-tri.pop
-tri.pop
-tri.push(new_array)
-
+	end
+	tri.pop #Removes one row of the triangle - first e.g. tri[14]
+	tri.pop #Removes one row of the triangle - first e.g. tri[13]
+	tri.push(new_array) #Appends the new array of max sums of the triplets to the triangle. This process of removing 2 and adding 1 continues until only one value is left.
 	
 end
 puts tri
